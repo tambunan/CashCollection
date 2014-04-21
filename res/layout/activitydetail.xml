@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:padding="10dip"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg"
+>
+<!--  <RelativeLayout 
+                 android:layout_width="fill_parent"
+                 android:layout_height="50dip"
+                  >
+              
+    <Button 
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentLeft="true"
+        android:background="@layout/button_green"
+        android:layout_margin="3dip"/>
+    
+    </RelativeLayout> -->
+
+   <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customer Name"
+                android:textColor="#000000"
+                android:textColorHint="#DDDDDD"
+                android:textSize="22sp"
+                android:layout_marginRight="28dp"/>
+
+        <View
+                android:layout_width="20dip"
+                android:layout_height="3dip" />
+
+        <TextView
+                android:id="@+id/tvtrxrefno"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="right"
+                android:text="123456"
+                android:textColor="#000000"
+                android:textSize="22sp" >
+        </TextView>
+        
+        
+
+    </LinearLayout> 
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:textColor="#000000"
+                android:textColorHint="#DDDDDD"
+                android:textSize="22sp"
+                android:layout_marginRight="28dp"/>
+
+        <View
+                android:layout_width="20dip"
+                android:layout_height="3dip" />
+
+        <TextView
+                android:id="@+id/tvtrxdate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="right"
+                android:text="123456"
+                android:textColor="#000000"
+                android:textSize="22sp" >
+        </TextView>
+        
+        
+
+    </LinearLayout> 
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trx Ref No"
+                android:textColor="#000000"
+                android:textColorHint="#DDDDDD"
+                android:textSize="22sp"
+                android:layout_marginRight="28dp"/>
+
+        <View
+                android:layout_width="20dip"
+                android:layout_height="3dip" />
+
+        <TextView
+                android:id="@+id/tvinvoiceno"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="right"
+                android:text="123456"
+                android:textColor="#000000"
+                android:textSize="22sp">
+        </TextView>
+
+    </LinearLayout> 
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trx Date"
+                android:textColor="#000000"
+                android:textColorHint="#DDDDDD"
+                android:textSize="22sp"
+                android:layout_marginRight="28dp"/>
+
+        <View
+                android:layout_width="20dip"
+                android:layout_height="3dip" />
+
+        <TextView
+                android:id="@+id/tvamount"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="right"
+                android:text="123456"
+                android:textColor="#000000"
+                android:textSize="22sp">
+        </TextView>
+
+    </LinearLayout> 
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Invoice No"
+                android:textColor="#000000"
+                android:textColorHint="#DDDDDD"
+                android:textSize="22sp"
+                android:layout_marginRight="28dp"/>
+
+        <View
+                android:layout_width="20dip"
+                android:layout_height="3dip" />
+
+        <TextView
+                android:id="@+id/tvname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="right"
+                android:text="123456"
+                android:textColor="#000000"
+                android:textSize="22sp" >
+        </TextView>
+
+    </LinearLayout> 
+    
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/tvlabeldate"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textColor="#000000"
+                android:textColorHint="#DDDDDD"
+                android:textSize="22sp"
+                android:layout_marginRight="28dp"/>
+
+        <View
+                android:layout_width="20dip"
+                android:layout_height="3dip" />
+
+        <TextView
+                android:id="@+id/tvdate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="right"
+                android:text="123456"
+                android:textColor="#000000"
+                android:textSize="22sp">
+        </TextView>
+
+    </LinearLayout> 
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remark"
+                android:textColor="#000000"
+                android:textColorHint="#DDDDDD"
+                android:textSize="22sp"
+                android:layout_marginRight="28dp"
+                android:id="@+id/tvlabelremark"/>
+
+        <View
+                android:layout_width="20dip"
+                android:layout_height="3dip" />
+
+        <TextView
+                android:id="@+id/tvremark"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="right"
+                android:text="123456"
+                android:textColor="#000000"
+                android:textSize="22sp">
+        </TextView>
+    </LinearLayout> 
+    
+     <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnPrint"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:text="Print"
+            android:padding="10dip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="17dip"
+            android:textStyle="bold"
+            android:background="@layout/button_green"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"/>
+
+       
+    </LinearLayout>
+</LinearLayout> 

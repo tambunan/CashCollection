@@ -1,0 +1,138 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bg" >
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            
+        <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"                    
+                    android:text="1.2"
+                    android:textSize="8sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:shadowColor="#33262f"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="3"/>
+        <!-- <LinearLayout android:id="@+id/header"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:background="@layout/header_gradient"
+           android:paddingTop="5dip"
+           android:paddingBottom="5dip"
+           
+           
+                android:layout_below="@+id/header">
+
+           <ImageView android:src="@drawable/siera"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dip"/>
+       </LinearLayout> -->
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="10dip">
+            <!--  View Title Label -->
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:text="WELCOME"
+                    android:textSize="25dip"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:shadowColor="#33262f"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="3"/>
+            
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:text="Mobile Activation"
+                    android:textSize="20dip"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:shadowColor="#33262f"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="3"/>
+            <EditText
+                    android:id="@+id/usernameactivation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:textColorHint="#DDDDDD"/>
+            <EditText
+                    android:id="@+id/passwordactivation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:password="true"
+                    android:hint="Password"
+                    android:text=""
+                    android:textColorHint="#DDDDDD"/>
+            
+            <EditText
+                    android:id="@+id/tokenactivation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:password="true"
+                    android:hint="Token"
+                    android:text=""
+                    android:textColorHint="#DDDDDD"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center"
+               >
+
+                <Button
+                    android:id="@+id/getToken"
+                    android:layout_width="120dip"
+                    android:layout_height="50dip"
+                    android:background="@layout/button_green"
+                    android:text="Req Token"
+                    android:textColor="#ffffff"
+                    android:textSize="17dip" />
+                
+                <View android:layout_width="10dip"
+                    android:layout_height="fill_parent"
+                    
+                    />
+
+                <Button
+                    android:id="@+id/activate"
+                    android:layout_width="120dip"
+                    android:layout_height="50dp"
+                    android:background="@layout/button_green"
+                    android:text="Activate"
+                    android:textColor="#ffffff"
+                    android:textSize="17dip" />
+
+                <TextView
+                    android:id="@+id/activation_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dip"
+                    android:textColor="#e30000"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            </LinearLayout>
+            <!--  Error message -->
+        
+        
+    </RelativeLayout>
+
+    </ScrollView>

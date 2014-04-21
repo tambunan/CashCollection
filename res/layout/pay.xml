@@ -1,0 +1,210 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:padding="5dip"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+		<LinearLayout
+		    android:id="@+id/content"
+		    android:fitsSystemWindows="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:paddingTop="20dip"
+	        >
+	        
+		    <!-- android:layout_below="@+id/header" -->
+
+	        <TextView
+	            android:id="@+id/loanCardNo"
+	            android:layout_width="fill_parent"
+	            android:layout_height="54dp"
+	            android:background="#cfff"
+	            android:gravity="top"
+	            android:lines="4"
+	            android:minHeight="100dp"
+                android:textColor="@color/black"
+	            android:paddingLeft="10dp"
+	            android:scrollbars="vertical"
+	            android:textColorHint="#999999"
+	            android:textSize="30dp" >
+
+	        </TextView>
+	        <View
+		        android:layout_width="fill_parent"
+		        android:layout_height="1.0dip"
+		        android:background="#DDDDDD" />
+	        <TextView
+	            android:id="@+id/loanName"
+	            android:layout_width="fill_parent"
+	            android:layout_height="54dp"
+	            android:background="#cfff"
+	            android:gravity="top"
+	            android:lines="4"
+	            android:minHeight="100dp"
+                android:textColor="@color/black"
+	            android:paddingLeft="10dp"
+	            android:scrollbars="vertical"
+	            android:textColorHint="#999999"
+	            android:textSize="30dp" >
+
+	        </TextView>
+	        <View
+		        android:layout_width="fill_parent"
+		        android:layout_height="1.0dip"
+		        android:background="#DDDDDD" />
+	        <EditText
+	            android:id="@+id/installmentAmount"
+	            android:layout_width="match_parent"
+	            android:layout_height="70dip"
+	            android:ems="10"
+	            android:hint="Jumlah Tagihan"
+	            android:inputType="numberDecimal"
+	            android:paddingTop="5dip"
+	            android:paddingLeft="10dip"
+	            android:textColorHint="#999999"
+                android:textColor="@color/black"
+	            android:background="#cfff"
+                android:textSize="35dp"
+	           >
+	        </EditText>
+	        <View
+		        android:layout_width="fill_parent"
+		        android:layout_height="1.0dip"
+		        android:background="#DDDDDD" />
+	    </LinearLayout>
+	    <LinearLayout
+	        android:id="@+id/labelButton"
+		    android:layout_width="fill_parent"
+		    android:layout_height="90dip"
+		    android:layout_alignParentBottom="false"
+		    android:layout_below="@+id/content"
+            android:padding="10dip"
+            android:gravity="center"
+		    android:background="#cfff">
+
+            <Button
+	            android:id="@+id/btnPay"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@layout/button_green"
+                android:padding="5dip"
+	            android:text="Pay"
+                android:textSize="18sp"
+	            android:textColor="#ffffff" />
+            <View
+                    android:layout_width="10dip"
+                    android:layout_height="1.0dip" />
+            <Button
+                    android:id="@+id/btnDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_green"
+                    android:padding="5dip"
+                    android:textSize="18sp"
+                    android:text="Details"
+                    android:textColor="#ffffff" />
+            <View
+                    android:layout_width="10dip"
+                    android:layout_height="1.0dip" />
+            <Button
+                    android:id="@+id/btnNotpay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_green"
+                    android:padding="5dip"
+                    android:textSize="18sp"
+                    android:text="Not Pay"
+                    android:textColor="#ffffff" />
+            <View
+                    android:layout_width="10dip"
+                    android:layout_height="1.0dip" />
+            <Button
+                    android:id="@+id/btnSign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_green"
+                    android:padding="5dip"
+                    android:textSize="18sp"
+                    android:text="Sign"
+                    android:textColor="#ffffff" />
+
+    </LinearLayout >
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="#DDDDDD" />
+
+        <LinearLayout
+                android:id="@+id/labelTanggal"
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:orientation="horizontal"
+                android:layout_below="@+id/labelButton"
+                android:paddingTop="10dip"
+                >
+
+            <EditText
+                android:id="@+id/tanggal"
+                android:layout_width="250dip"
+                android:layout_height="60dip"
+                android:layout_below="@+id/labelTanggal"
+                android:background="#cfff"
+                android:hint="Tanggal"
+                android:padding="5dip"
+                android:textColor="#000000"
+                android:textColorHint="#999999"
+                android:textSize="24sp" />
+
+            />
+
+            <ImageButton
+                android:id="@+id/btnViewDate"
+                android:layout_width="60dp"
+                android:layout_height="56dp"
+                android:layout_gravity="right"
+                android:fitsSystemWindows="true"
+                android:padding="0dip"
+                android:scaleType="fitCenter"
+                android:src="@drawable/calendariconmd" />
+
+        </LinearLayout >
+        <LinearLayout
+                android:id="@+id/labelRemark"
+                android:layout_width="fill_parent"
+                android:layout_height="200dip"
+                android:orientation="vertical"
+                android:layout_below="@+id/labelTanggal"
+                android:paddingTop="10dip"
+                >
+            <EditText
+                    android:id="@+id/remark"
+                    android:layout_width="fill_parent"
+                    android:layout_height="140dip"
+                    android:hint="Remark"
+                    android:gravity="top"
+ 					android:textColor="#000000"
+                    android:background="#cfff"
+                    android:textSize="24sp"
+                    android:padding="5dip"
+                   />
+            <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_green"
+                    android:layout_gravity="center"
+                    android:text="Submit"
+                    android:layout_marginTop="10dip"
+                    android:textSize="22sp"
+                    android:textColor="#ffffff" />
+
+        </LinearLayout >
+
+
+    </RelativeLayout>
+</ScrollView>

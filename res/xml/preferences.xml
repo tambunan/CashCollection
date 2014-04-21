@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/menu_settings">
+        <ListPreference
+            android:title="Siera Reader Type"
+            android:summary="Set Siera Reader Type"
+            android:key="key_background"
+            android:entries="@array/reader_type"
+            android:entryValues="@array/reader_type_values"
+            android:defaultValue="@integer/reader_type_default" />
+    </PreferenceCategory>
+</PreferenceScreen>

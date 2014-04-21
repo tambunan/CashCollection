@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/bg"
+              android:orientation="vertical" >
+              
+    <RelativeLayout 
+        android:id="@+id/atas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inquiryBar"
+        android:background="#80FFFFFF"
+        android:layout_margin="5dip">
+        
+        <TextView
+            android:id="@+id/textavailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dip"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+        
+        <TextView
+            android:id="@+id/textamountavailable"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="0"
+            android:layout_toRightOf="@id/textavailable"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="40dip"
+            android:layout_marginTop="5dip"
+            android:layout_marginRight="10dip"
+            android:textColor="#000000"
+            android:textSize="23sp"
+            android:background="#93b963"
+            android:gravity="center"
+            android:textStyle="bold">
+        </TextView>
+        
+        <TextView
+            android:id="@+id/textoutstanding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Collected"
+            android:layout_below="@id/textavailable"
+            android:layout_margin="5dip"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+        
+        <TextView
+            android:id="@+id/textamountoutstanding"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginRight="10dip"
+            android:layout_alignBottom="@id/textoutstanding"
+            android:layout_toRightOf="@id/textoutstanding"
+            android:layout_alignLeft="@id/textamountavailable"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:paddingBottom="2dip">
+        </TextView>
+
+        </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/test"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/atas"
+            android:orientation="vertical" >
+
+        <ListView
+                android:id="@+id/listactivity"
+                android:layout_alignParentTop="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_above="@+id/btnHistory" >
+        </ListView>
+        <Button
+            android:id="@+id/btnHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:text="History"
+            android:layout_gravity="bottom|center"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+            android:textSize="15dip"
+            android:background="@layout/button_green"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"/>
+    </RelativeLayout>
+
+    
+    
+</LinearLayout>
+
+    

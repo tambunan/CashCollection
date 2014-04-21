@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/woosimprinter_bt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gcm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/google-play-services.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cswiperapi-android-3.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

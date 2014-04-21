@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Collection Online</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="tab_words">Words</string>
+    <string name="tab_numbers">Numbers</string>
+    <string name="none_paired">No devices found</string>
+    <string name="none_found">>No devices found</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+
+    <integer name="reader_type_default">0</integer>
+    <integer name="google_play_services_version">3</integer>
+
+    <string-array name="reader_type">
+        <item>New Siera Reader Pro</item>
+        <item>Siera Reader Pro</item>
+        <item>Siera Reader</item>
+    </string-array>
+
+    <string-array name="reader_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="GetKsnCompleted">Get KSN Completed</string>
+    <string name="ReadingKsnData">Reading KSN&#8230;</string>
+    <string name="DecodeCompleted">Decode Completed</string>
+    <string name="ReadingCardData">Reading Card Data&#8230;</string>
+    <string name="BadSwipe">Swipe Fail</string>
+    <string name="CRCError">CRC Error</string>
+    <string name="CommunicationError">Communication Error</string>
+    <string name="UnknownDecodeError">Unknown Decode Error</string>
+    <string name="Interrupted">Interrupted</string>
+    <string name="Timeout">Timeout</string>
+    <string name="WaitingCardSwipe">Waiting Card Swipe&#8230;</string>
+    <string name="WaitingForDevice">Waiting For Device&#8230;</string>
+    <string name="DecodingCardData">Decoding Card Data&#8230;</string>
+    <string name="CSwiperPlugged">CSwiper is plugged</string>
+    <string name="CSwiperUnplugged">CSwiper is unplugged!</string>
+    <string name="STOP">STOP</string>
+    <string name="CSwiperIsDetected">CSwiper is detected</string>
+    <string name="CSwiperIsNotDetected">CSwiper is not detected!</string>
+    <string name="Uploading">Uploading&#8230;</string>
+    <string name="IncomingCallDetected">Incoming Call Detected</string>
+    <string name="UploadCompleted">Send Log Completed</string>
+    <string name="UploadFailed">Send Log Failed</string>
+</resources>

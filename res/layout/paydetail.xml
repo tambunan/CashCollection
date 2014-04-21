@@ -1,0 +1,217 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bg" >
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+       <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="10dip">
+            <!--  android:layout_below="@+id/header" 
+            View Title Label -->
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:text="PAYMENT DETAIL"
+                    android:textSize="25dip"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:shadowColor="#33262f"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="3"/>
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dip"
+                    />
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#80FFFFFF"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="130dip"
+                        android:layout_height="wrap_content"
+                        android:text="ITEM 1"
+                        android:textColor="#000000"
+                        android:textColorHint="#DDDDDD"
+                        android:textSize="16sp" />
+                <View
+                        android:layout_width="20dip"
+                        android:layout_height="3dip"
+                        />
+
+                <TextView
+                        android:id="@+id/item1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="Amount"
+                        android:textColorHint="#DDDDDD"
+                        android:textStyle="bold"
+                        android:text="Rp 100.000"
+                        android:gravity="right"
+                        android:textColor="#000000"
+                        android:textSize="14sp" >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#80FFFFFF"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="152dp"
+                        android:layout_height="wrap_content"
+                        android:text="ITEM 2"
+                        android:textColor="#000000"
+                        android:textColorHint="#DDDDDD"
+                        android:textSize="16sp" />
+
+                <TextView
+                        android:id="@+id/item2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="Amount"
+                        android:textColorHint="#DDDDDD"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:text="Rp 100.000"
+                        android:textStyle="bold"
+                        android:gravity="right">
+
+
+                </TextView>
+
+                <View
+                        android:layout_width="25dip"
+                        android:layout_height="3dip"
+                        />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#80FFFFFF"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="130dip"
+                        android:layout_height="wrap_content"
+                        android:text="ITEM 3"
+                        android:textColor="#000000"
+                        android:textColorHint="#DDDDDD"
+                        android:textSize="16sp" />
+                <View
+                        android:layout_width="20dip"
+                        android:layout_height="3dip"
+                        />
+
+                <TextView
+                        android:id="@+id/item3"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="right"
+                        android:textColorHint="#DDDDDD"
+                        android:hint="Amount"
+                        android:text="Rp 100.000"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="14sp" >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#80FFFFFF"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="130dip"
+                        android:layout_height="wrap_content"
+                        android:text="ITEM 4"
+                        android:textColor="#000000"
+                        android:textColorHint="#DDDDDD"
+                        android:textSize="16sp" />
+                <View
+                        android:layout_width="20dip"
+                        android:layout_height="3dip"
+                        />
+
+                <TextView
+                        android:id="@+id/item4"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="right"
+                        android:textColorHint="#DDDDDD"
+                        android:hint="Amount"
+                        android:text="Rp 100.000"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" >
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#80FFFFFF"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="130dip"
+                        android:layout_height="wrap_content"
+                        android:text="ITEM 5"
+                        android:textColor="#000000"
+                        android:textColorHint="#DDDDDD"
+                        android:textSize="16sp" />
+                <View
+                        android:layout_width="20dip"
+                        android:layout_height="3dip"
+                        />
+
+                <TextView
+                        android:id="@+id/item5"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="right"
+                        android:textColorHint="#DDDDDD"
+                        android:hint="Amount"
+                        android:text="Rp 100.000"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" >
+
+                </TextView>
+            </LinearLayout>
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dip"
+                    />
+            <Button
+                    android:id="@+id/btnPay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:text="PAY"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="24dip"
+                    android:background="@layout/button_green"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

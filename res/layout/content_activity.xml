@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <!-- From Label -->
+
+    <TextView
+        android:id="@+id/cardno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dip"
+        android:paddingLeft="5dip"
+        android:text="98765432"
+        android:paddingTop="2dip"
+        android:textColor="#000000"
+        android:textSize="16dip" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+
+        android:gravity="right"
+        android:text="Rp 50.000"
+        android:paddingRight="5dip"
+        android:paddingTop="2dip"
+        android:textColor="#668f3c"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+    <!-- Mail date -->
+
+    <TextView
+        android:id="@+id/cardname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardno"
+        android:paddingBottom="3dip"
+        android:text="Duma Tambunan"
+        android:paddingLeft="3dip"
+        android:paddingTop="3dip"
+        android:textColor="#000000"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mobileno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/amount"
+        android:gravity="right"
+        android:paddingBottom="3dip"
+        android:text="0813459434343"
+        android:paddingLeft="3dip"
+        android:paddingRight="5dip"
+        android:paddingTop="3dip"
+        android:textColor="#000000"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardname"
+        android:paddingBottom="3dip"
+        android:text="Address 1"
+        android:paddingLeft="3dip"
+        android:paddingTop="3dip"
+        android:textColor="#000000"
+        android:textSize="16dip" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mobileno"
+        android:paddingBottom="3dip"
+        android:paddingLeft="3dip"
+        android:paddingRight="5dip"
+        android:paddingTop="3dip"
+        android:text="Jakarta"
+        android:textColor="#000000"
+        android:textSize="16dip" />
+    <!--<TextView-->
+            <!--android:id="@+id/labelstatus"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_below="@+id/address"-->
+            <!--android:padding="5dip"-->
+            <!--android:text="Status : "-->
+            <!--android:textColor="#000000" />-->
+    <!--<TextView-->
+        <!--android:id="@+id/status"-->
+        <!--android:layout_toRightOf="@+id/labelstatus"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/address"-->
+        <!--android:padding="5dip"-->
+        <!--android:textStyle="bold"-->
+        <!--android:text="Pay"-->
+        <!--android:textColor="#000000" />
+                android:layout_toRightOf="@+id/mutasi_date"
+                        android:layout_alignLeft="@+id/mutasi_amount"-->
+
+</RelativeLayout>

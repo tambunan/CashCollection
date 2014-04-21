@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bg" >
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            
+        <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"                    
+                    android:text="1.2"
+                    android:textSize="8sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:shadowColor="#33262f"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="3"/>
+        <!-- <LinearLayout android:id="@+id/header"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:background="@layout/header_gradient"
+           android:paddingTop="5dip"
+           android:paddingBottom="5dip"
+           
+           
+                android:layout_below="@+id/header">
+
+           <ImageView android:src="@drawable/siera"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dip"/>
+       </LinearLayout> -->
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="10dip">
+            <!--  View Title Label -->
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:text="LOGIN"
+                    android:textSize="25dip"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:shadowColor="#33262f"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="3"/>
+            <EditText
+                    android:id="@+id/username"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:text=""
+                    android:textColorHint="#DDDDDD"/>
+            <EditText
+                    android:id="@+id/password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:password="true"
+                    android:hint="Password"
+                    android:text=""
+                    android:textColorHint="#DDDDDD"/>
+            <!--  Error message -->
+            <Button
+                    android:id="@+id/login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:text="Login"
+                    android:textColor="#ffffff"
+                    android:textSize="15dip"
+                    android:background="@layout/button_green"/>
+
+            <TextView android:id="@+id/login_error"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:textColor="#e30000"
+                      android:padding="10dip"
+                      android:textStyle="bold"/>
+        </LinearLayout>
+        
+        
+    </RelativeLayout>
+
+    </ScrollView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#fff">
+ 
+    <!-- From Label -->
+    <TextView
+        android:id="@+id/history_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:paddingLeft="8dip"
+        android:paddingBottom="4dip"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+ 
+   
+    <TextView android:id="@+id/history_amount"
+        android:layout_width="wrap_content"
+        android:paddingTop="8dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="8dip"
+        android:textSize="24dip"
+        android:textStyle="bold"
+        android:textColor="#668f3c" />
+    
+    <!-- Mail date -->
+    <!--<TextView android:id="@+id/mutasi_bene"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingLeft="8dip"-->
+        <!--android:paddingBottom="6dip"-->
+        <!--android:paddingTop="10dip"-->
+        <!--android:textSize="20dip"-->
+        <!--android:layout_below="@+id/mutasi_date"-->
+        <!--android:textStyle="bold"/>-->
+ 
+    <!--<TextView android:id="@+id/mutasi_from"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:paddingLeft="8dip"-->
+        <!--android:paddingTop="10dip"-->
+        <!--android:paddingBottom="6dip"-->
+        <!--android:textSize="15dip"-->
+        <!--android:layout_below="@+id/mutasi_amount"/>-->
+     <TextView android:id="@+id/history_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="5dip"
+        android:layout_below="@+id/history_date"/>
+</RelativeLayout>
+  

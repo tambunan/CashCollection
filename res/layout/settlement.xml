@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+   
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:padding="5dip"
+        android:background="@drawable/bg">
+        
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:paddingLeft="5dip"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal :"
+                android:textColor="#000000"
+                android:textColorHint="#DDDDDD"
+               android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text=""
+                android:textColor="#000000"
+                android:layout_marginLeft="75dip"
+                android:textSize="20sp"
+                android:textStyle="bold" >
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:paddingLeft="5dip"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Transaksi :"
+                android:textColor="#000000"
+                android:textColorHint="#DDDDDD"
+                android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+                android:id="@+id/total_trx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dip"
+                android:layout_gravity="left">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:paddingLeft="5dip"
+            android:orientation="horizontal"
+            android:id="@+id/ayam" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Settlement :"
+                android:textColor="#000000"
+                android:textColorHint="#DDDDDD"
+                android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+                android:id="@+id/total_settlement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dip"
+                android:layout_gravity="left">
+        </TextView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+            android:id="@+id/test"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/ayam"
+            android:layout_gravity="top"
+            android:gravity="top">
+
+        <ListView
+                android:id="@+id/listsettlement"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btnSettlement"
+                android:layout_gravity="top"
+                android:layout_alignParentTop="true"
+                android:gravity="top">
+
+        </ListView>
+         <Button
+            android:id="@+id/btnSettlement"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:text="Settlement"
+            android:layout_gravity="bottom|center"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+            android:textSize="15dip"
+            android:background="@layout/button_green"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"/>    
+    </RelativeLayout>
+    
+   
+    
+</LinearLayout>
+
+   
+    
